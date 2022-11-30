@@ -1,10 +1,60 @@
 body {
-    background-color: cyan;
+    background-color: rgb(0, 255, 42);
 }
-.caixa {
+.padding {
     color: blue;
     background-color: blueviolet;
 }
 div {
     color: brown;
+}
+.caixa {
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    margin: 10px;
+    border: 20px solid black;
+    position: absolute;
+    bottom: 20px;
+    left: 2px;
+}
+.padding {
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    margin: 10px;
+    border: 20px solid black;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+}
+.caixa-2 {
+    background-color: rgb(105, 79, 49);
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    margin: 10px;
+    border: 20px solid black;
+    position: relative;
+    bottom: 2px;
+}
+.caixa-3 {
+    background-color: rgb(9, 43, 48);
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    margin: 10px;
+    border: 20px solid black;
+    position: absolute;
+    right: 50px;
+    bottom: 500px
+}
+.foto1 {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    position: absolute;
+    margin-right: 50%;
+    left: 40%;  
 }
